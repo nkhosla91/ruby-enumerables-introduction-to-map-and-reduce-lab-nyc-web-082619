@@ -62,7 +62,7 @@ def reduce_to_any_true(array)
   while array[counter] do
     counter += 1
   end
- if array.length > 4
+ if array.length > counter
    return true
  else 
    return false
